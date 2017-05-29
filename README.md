@@ -20,5 +20,8 @@ public class Bar {
 will output a link to Bar.java in the repository with the text "This is a sample comment" under it in a code block.
 
 ## Installation
-TODO
+1. Clone/Download this repository
+2. Run `python setup.py bdist_egg`
+3. Upload dist/TracJavaDoc-*.egg in trac admin
+4. Use the macro as described above
 
